@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../img/photo-1675871247015-97e8d80ba3f3.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 1)
+}
+
+header h1{
+padding: 20px 0 20px 50px;
+color: aliceblue;
+}
+
+header nav a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 15px;
+}
